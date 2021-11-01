@@ -6,6 +6,7 @@ import FoodiePedia from "../images/the_foodiepedia.jpeg"
 
 const callouts = [
     {
+      id : 1,
       name: 'Web & Apps Design',
       description: 'Epic Property Web',
       imageSrc: [EpicProperty],
@@ -13,6 +14,7 @@ const callouts = [
       href: 'https://www.instagram.com/p/CQ5vq7Gjrt9/',
     },
     {
+      id : 2,
       name: 'Web Apps Design',
       description: 'The Foodiepedia Brand & Web Redesign',
       imageSrc: [FoodiePedia],
@@ -20,6 +22,7 @@ const callouts = [
       href: 'https://www.instagram.com/p/CQ5vTkmj1oZ/',
     },
     {
+      id : 3,
       name: 'Apps Design',
       description: 'Billing Management for boarding house owner',
       imageSrc: [BillManagement],
@@ -39,7 +42,7 @@ const callouts = [
   
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map((callout) => (
-                <div className="group relative">
+                <div  key={callout.id} className="group relative">
                   <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                     <img
                       src={callout.imageSrc}
