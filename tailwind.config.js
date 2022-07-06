@@ -14,6 +14,9 @@ module.exports = {
     fontFamily: {
       'playfairdisplay': ['Playfair Display', 'serif'],
       'circular': ['Circular Std Bold', 'sans-serif'],
+      sans: ['Google Sans', 'sans-serif'],
+      serif: ['Playfair Display', 'serif'],
+      'playfairdisplay': ['Playfair Display', 'serif'],
     },
   },
   variants: {
