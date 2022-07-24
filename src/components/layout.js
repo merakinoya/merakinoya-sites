@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
 
         <div className="flex justify-center gap-4 py-7">
           <a href="https://www.instagram.com/merakinoya/" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-2xl hover:text-red-500"><BsInstagram /></a>
-          <a href="https://dribbble.com/ilhamarl" target="_blank" rel="noreferrer" aria-label="Dribbble"  className="text-2xl hover:text-red-500"><BsDribbble /></a>
+          <a href="https://dribbble.com/omiamarl" target="_blank" rel="noreferrer" aria-label="Dribbble"  className="text-2xl hover:text-red-500"><BsDribbble /></a>
         </div>
 
 
