@@ -4,9 +4,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ServicesSection from "../components/our-services"
 import FeaturesSection from "../components/features"
-import {
-  CheckIcon,
-} from '@heroicons/react/solid'
 
 const IndexPage = () => (
   <Layout>
@@ -83,7 +80,7 @@ const IndexPage = () => (
                       </div>
                       <div className="w-44 h-64 rounded-lg overflow-hidden">
                         <img
-                          src="https://source.unsplash.com/KxVlKiqQObU/720x720"
+                          src="https://source.unsplash.com/9VzoRKfBsMM/720x720"
                           alt="Featured"
                           className="w-full h-full object-center object-cover"
                         />
