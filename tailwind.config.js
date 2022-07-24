@@ -1,6 +1,6 @@
 module.exports = {
   //purge: [],
-  purge: [
+  content: [
     './src/**/*.{js,jsx,ts,tsx}',
     './public/index.html',
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -8,7 +8,7 @@ module.exports = {
     './layout/**/*.{js,ts,jsx,tsx}',
     './helpers/**/*.{js,ts,jsx,tsx}',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {},
     fontFamily: {
