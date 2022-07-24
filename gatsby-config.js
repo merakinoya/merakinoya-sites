@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "merakinoya-sites",
+    siteUrl: "https://merakinoya.com",
+    title: "Merakinoya.com",
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -14,7 +14,6 @@ module.exports = {
         icon: "src/images/favicon.svg",
       },
     },
-    "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
