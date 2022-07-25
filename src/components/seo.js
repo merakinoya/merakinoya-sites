@@ -53,6 +53,10 @@ function SEO({ description, lang, meta, title }) {
                     content: `website`,
                 },
                 {
+                    property: `og:image`,
+                    content: `/images/Merakinoya_Profile-512.png`,
+                },
+                {
                     name: `icon`,
                     href: `/images/favicon.svg`,
                 },
