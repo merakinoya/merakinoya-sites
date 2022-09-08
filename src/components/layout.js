@@ -16,6 +16,8 @@ import '../css/animista.css';
 import '../css/golden-ratio.css';
 
 const Layout = ({ children }) => {
+
+  
   const data = useStaticQuery(graphql`
      query SiteTitleQuery {
        site {
