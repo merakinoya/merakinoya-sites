@@ -51,9 +51,11 @@ const recentPosts = [
 ]
 */
 
+/*
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
+*/
 
 function Navbar({ siteTitle }) {
   return (

@@ -15,7 +15,7 @@ const IndexPage = () => (
       <div className="pt-16 pb-96 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <div className="sm:max-w-lg">
-            <h1 className="text-4xl font font-extrabold font-circular tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl font font-extrabold  tracking-tight text-gray-900 sm:text-6xl">
               We're Merakinoya
             </h1>
             <p className="mt-4 text-xl text-gray-500">
@@ -109,8 +109,8 @@ const IndexPage = () => (
     <section id="contact-us" className="bg-gray-50">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 className="text-3xl text-center md:text-left font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          <span className="block font-circular text-gray-700">Ready to build your product?</span>
-          <span className="block font-circular npmtext-black">Start talk with us</span>
+          <span className="block  text-gray-700">Ready to build your product?</span>
+          <span className="block  npmtext-black">Start talk with us</span>
         </h2>
         <div className="mt-8 flex justify-center lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">

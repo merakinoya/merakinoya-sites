@@ -23,7 +23,7 @@ const AboutUs = () => (
                     ← Back to home
                 </Link>
 
-                <h2 className="text-3xl font-extrabold font-circular tracking-tight text-gray-900 sm:text-4xl">
+                <h2 className="text-3xl font-extrabold  tracking-tight text-gray-900 sm:text-4xl">
                     About Us
                 </h2>
                 <p className="mt-4 text-gray-500">
